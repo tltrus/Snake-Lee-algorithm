@@ -1,0 +1,15 @@
+﻿<Window x:Class="Snake_Wave.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Snake_Wave"
+        mc:Ignorable="d"
+        Title="Snake Wave" Height="480" Width="430">
+    <Grid>
+        <StackPanel>
+            <Button x:Name="btnStart" Content="Start" Margin="5" Click="BtnStart_Click"/>
+            <Canvas Name="g" Height="400" Width="400" Background="#FFF3F1F1"/>
+        </StackPanel>
+    </Grid>
+</Window>
